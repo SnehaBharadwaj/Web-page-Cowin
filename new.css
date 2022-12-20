@@ -1,0 +1,267 @@
+
+body{
+    font-family: Roboto,sans-serif!important;
+    margin:0;
+    }
+    *{
+        color: #002060;
+    }
+.container{
+    width:100%;
+    margin: 0 auto;
+
+}
+
+nav{
+    background-color: rgb(30, 55, 112);
+    display:flex;
+    justify-content: space-between;
+    max-height: 45px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    font-size: 14px;
+
+    
+}
+nav ul{
+    list-style-type: none;
+    
+    display:flex;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    display:block;
+    
+    
+   
+}
+.line::after{
+    content:"|";
+    padding-left: 15px;
+    color:white;
+}
+nav li:last-child::after{
+    display:none;
+}
+a{
+   
+    padding: 0 5px 0 10px
+}
+
+li{
+    padding: 0 10px 0 10px
+}
+
+
+.wrap{
+    border:1px solid white;
+    font-size: 15px;
+}
+
+.section{
+    border-bottom: 2px solid rgb(204,204,204);
+    display:flex;
+    
+}
+.sec_container li a{
+    color:rgb(0, 32, 96)
+}
+
+ li a{
+    text-decoration: none;
+    
+}
+
+
+
+.sec_container{
+    
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+
+}
+.sec_container ul{
+     display:flex;
+     list-style-type: none;
+}
+span{
+    background-color: rgb(255, 192, 2);
+    padding:10px 25px 10px 25px;
+    border-radius:30px;
+    color:rgb(0, 32, 96);
+    font-weight:bold;
+    box-shadow: 2px 2px 7px grey;
+    
+}
+#content {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: minmax(150px,auto);
+    margin: 0 auto;
+    
+   
+
+}
+#content div{
+    
+    padding:30px;
+}
+#content a{
+    text-decoration: none;;
+}
+.one{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    font-size: 48px;
+    
+    
+}
+.two{
+    grid-column: 1/5;
+    grid-row:2/3;
+    font-size: 15px;
+    
+    
+}
+.two p{
+    margin-top: 0;
+}
+
+.three{
+    grid-column:9/13;
+    grid-row:1/4;
+}
+.four{
+    grid-column:1/5;
+    grid-row:3/4; 
+    
+}
+.five{
+    grid-column:3/9;
+    grid-row:3/4; 
+}
+
+
+#btn1{
+    background-color: rgb(255, 192, 2);
+    padding:10px 50px 10px 50px;
+    border-radius:30px;
+    
+    color:rgb(0, 32, 96);
+    font-weight:bold;
+    box-shadow: 2px 2px 7px grey;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+#btn2{
+    background-color: white;
+    padding:2px 60px 2px px;
+    border-radius:30px;
+    border:1px solid rgb(0, 32, 96);
+    color:rgb(0, 32, 96);
+    font-weight:bold;
+    box-shadow: 2px 2px 7px grey;
+    box-sizing: border-box;
+    
+
+}
+.contentNew{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    margin:0 auto;
+    background-color: rgb(247, 252, 255);
+}
+.contentNew div{
+    padding:30px;
+    margin:0 5px 0 5px;
+    font-size: 13px;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+.contentNew a{
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+    font-size:35px;
+}
+.map{
+    height:300px;
+    background-color: rgb(247, 252, 255);
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+    
+}
+.map p {
+       vertical-align: middle;
+        /* display: inline-block; */
+        
+      
+}
+#btn3{
+    margin:10px 0 10px 30px;
+    background-color:rgb(255, 192, 2);
+    width:5%;
+    padding:3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.containerNew{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    margin-bottom: 5%;
+    
+    
+  }
+
+.containerNew  img{
+    display: block;
+    margin-top: 15px;
+    width: 42%;
+    border-radius: 50%;
+    z-index: 1000;
+    
+}
+.fixed{
+    position: absolute;
+    margin-left: 28%;
+    margin-right: 28%;
+    
+}
+.description{
+    background-color:rgb(247, 252, 255);
+ position: relative;
+ margin-top:35%;
+ padding:18% 5% 5% 5% ;
+ margin-left:10px;
+ margin-right:10px;
+ border-radius: 20px;
+ box-shadow: 1px 1px 5px gray;
+ text-align: center;
+}
+.description p{
+    color: rgb(0, 32, 96);
+    font-weight: 600;
+    margin: auto 23%;
+    text-align: center;
+    font-size: 15px;
+}
+.description a{
+    color: #002060;
+    font-size: 11px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.description a:hover{
+    text-decoration: none;
+}
+
